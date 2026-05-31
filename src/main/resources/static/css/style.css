@@ -1,0 +1,96 @@
+/* =====================================================
+   Restaurante Delivery - Estilos Globais
+   FATEC ZL - Lab. Banco de Dados
+   ===================================================== */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+
+/* Cards */
+.card-hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+}
+
+/* Tabelas */
+.table thead th {
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.table tbody tr:hover {
+    background-color: rgba(220, 53, 69, 0.04);
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+    font-size: 0.78rem;
+}
+
+/* Botões */
+.btn {
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Formulários */
+.form-label {
+    margin-bottom: 4px;
+}
+.form-control:focus, .form-select:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.15);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+/* Alertas flash */
+.alert {
+    border-radius: 8px;
+    border: none;
+}
+
+/* Subtotal input */
+.qty-input {
+    text-align: center;
+}
+
+/* Recibo / Detalhe pedido */
+.recibo-header {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+    color: white;
+    border-radius: 12px 12px 0 0;
+    padding: 24px;
+}
+.recibo-body {
+    border: 2px solid #dc3545;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    padding: 24px;
+}
